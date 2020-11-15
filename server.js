@@ -105,7 +105,7 @@ io.on('connection', socket => {
     });
 });
 
-const PRT = 3000 || process.env.PORT;
+const PRT = process.env.PORT;
 
 // listening to connections
 server.listen(PRT, () => {
