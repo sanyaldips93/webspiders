@@ -105,9 +105,9 @@ io.on('connection', socket => {
     });
 });
 
-const PORT = 3000 || process.env.PORTNUMBER;
+const PRT = 3000 || process.env.PORT;
 
 // listening to connections
-server.listen(PORT, () => {
+server.listen(PRT, () => {
     console.log(`Server running on port ${PORT}`);
 });
