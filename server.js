@@ -109,5 +109,5 @@ const PRT = 3000 || process.env.PORT;
 
 // listening to connections
 server.listen(PRT, () => {
-    console.log(`Server running on port ${PORT}`);
+    console.log(`Server running on port ${PRT}`);
 });
