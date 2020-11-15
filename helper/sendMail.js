@@ -15,7 +15,7 @@ exports.sendMail = (object) => {
   return new Promise((resolve, reject) => {
       const emailMessage = {
           from: 'sanyaldips@gmail.com',
-          to: process.env.EMAIL_DIPAYAN,            // List of recipients
+          to: process.env.EMAIL_WEBSPIDERS,            // List of recipients
           subject: 'WebSpiders ChatBox',            // Subject line
           text: `${object.username} joined chat..`  // Plain text body
       };
